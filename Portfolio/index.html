@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahnoor Ejaz — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Pure-CSS theme toggle: checkbox drives the theme, no JS needed -->
+    <input type="checkbox" id="theme-toggle" class="theme-checkbox" />
+
+    <div class="page">
+      <nav class="topnav">
+        <span class="logo">mahnoor<span class="dot">.</span></span>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <label
+            for="theme-toggle"
+            class="toggle-label"
+            aria-label="Toggle light and dark theme"
+          >
+            <span class="icon-moon">&#9789;</span>
+            <span class="icon-sun">&#9728;</span>
+          </label>
+        </div>
+      </nav>
+
+      <header class="hero" id="top">
+        <div class="ambient-blob blob-a"></div>
+        <div class="ambient-blob blob-b"></div>
+
+        <div class="hero-content fade-up">
+          <p class="eyebrow-alt">BSCS, 5th Semester</p>
+          <h1>
+            Hi, I'm <span class="name">Mahnoor Ejaz</span>.<br />I turn raw data
+            into decisions.
+          </h1>
+          <p class="hero-sub">
+            A BSCS student at the University of Sargodha with a background in
+            frontend web development, now focused on Python, data analysis, and
+            machine learning. I like projects that start messy and end with
+            something that actually works.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">See my projects</a>
+            <a href="#contact" class="btn-ghost">Get in touch</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="section fade-up">
+          <h2>About</h2>
+          <p class="section-lede">
+            I come from a computer science background — I studied ICS in college
+            and I am now in my 5th semester of a BSCS at the University of
+            Sargodha. Along the way I picked up frontend web development, and
+            more recently I've been focused on data analysis with Python,
+            building toward machine learning.
+          </p>
+        </section>
+
+        <section id="skills" class="section fade-up">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-row">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar">
+                <div class="skill-fill fill-85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">Pandas</span>
+              <div class="skill-bar">
+                <div class="skill-fill fill-80"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">NumPy</span>
+              <div class="skill-bar">
+                <div class="skill-fill fill-78"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">SQL</span>
+              <div class="skill-bar">
+                <div class="skill-fill fill-70"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">Matplotlib / Seaborn</span>
+              <div class="skill-bar">
+                <div class="skill-fill fill-72"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">HTML / CSS</span>
+              <div class="skill-bar">
+                <div class="skill-fill fill-75"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <span class="skill-name">JavaScript / React</span>
+              <div class="skill-bar">
+                <div class="skill-fill fill-60"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section fade-up">
+          <h2>Projects</h2>
+          <div class="projects-list">
+            <article class="project">
+              <h3>Bank Management System</h3>
+              <p>
+                A command-line banking system handling account creation, balance
+                checks, and transfers with basic input validation.
+              </p>
+              <div class="tags"><span>Python</span></div>
+              <a
+                href="https://github.com/mahnoor53407"
+                class="project-link"
+                target="_blank"
+                rel="noopener"
+                >View on GitHub →</a
+              >
+            </article>
+
+            <article class="project">
+              <h3>Student Performance Analyzer</h3>
+              <p>
+                A NumPy tool that calculates averages, finds top and lowest
+                scorers, and filters students using boolean indexing.
+              </p>
+              <div class="tags"><span>Python</span><span>NumPy</span></div>
+              <a
+                href="https://github.com/mahnoor53407"
+                class="project-link"
+                target="_blank"
+                rel="noopener"
+                >View on GitHub →</a
+              >
+            </article>
+
+            <article class="project">
+              <h3>Employee Analytics System</h3>
+              <p>
+                A Pandas pipeline that cleans employee data and runs
+                department-wise analysis with pivot tables and Excel exports.
+              </p>
+              <div class="tags">
+                <span>Python</span><span>Pandas</span><span>NumPy</span>
+              </div>
+              <a
+                href="https://github.com/mahnoor53407"
+                class="project-link"
+                target="_blank"
+                rel="noopener"
+                >View on GitHub →</a
+              >
+            </article>
+
+            <article class="project">
+              <h3>Employee Analytics System — v2</h3>
+              <p>
+                Adds Matplotlib and Seaborn visualizations — salary
+                distributions, correlations, and department comparisons.
+              </p>
+              <div class="tags">
+                <span>Matplotlib</span><span>Seaborn</span>
+              </div>
+              <a
+                href="https://github.com/mahnoor53407"
+                class="project-link"
+                target="_blank"
+                rel="noopener"
+                >View on GitHub →</a
+              >
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section fade-up">
+          <h2>Get in touch</h2>
+          <p class="section-lede">
+            Open to internships, collaboration, or just talking about data.
+            Reach me here:
+          </p>
+          <div class="contact-links">
+            <a href="mailto:mahnoorejaz53407@gmail.com"
+              >mahnoorejaz53407@gmail.com</a
+            >
+            <a
+              href="https://github.com/mahnoor53407"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/mahnoor-ejaz-7b5808332/?skipRedirect=true"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2026 Mahnoor Ejaz.</p>
+      </footer>
+    </div>
+  </body>
+</html>
